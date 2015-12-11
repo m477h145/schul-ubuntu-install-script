@@ -7,3 +7,4 @@ wget -O - http://www.geogebra.net/linux/office@geogebra.org.gpg.key| apt-key add
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y vlc libreoffice y-ppa-manager geogebra44 scratch numix-icon-theme-circle firefox gimp audacity freemind inkscape librecad avidemux italc-master lame winbind libpam-winbind libpam-mount libnss-winbind samba-common-bin network-manager isc-dhcp-client cifs-utils smbclient cups
+wget https://update.iserv.eu/debian/pool/main/i/iserv-client/iserv-client_15.10.20-1_all.deb
