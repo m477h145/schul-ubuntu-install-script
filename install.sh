@@ -18,6 +18,8 @@ cd /etc/security/
 curl -L -O https://github.com/m477h145/schul-ubuntu-install-script/raw/master/pam_mount.conf.xml
 cd /etc/samba/
 curl -L -O https://github.com/m477h145/schul-ubuntu-install-script/raw/master/smb.conf
-echo "Auto-download broken"
-echo "Please download Iserv-Client manually https://update.iserv.eu/debian/pool/main/i/iserv-client/"
-echo "Then run it by: sudo dpkg -i [Filename].deb"
+echo "### Auto-download broken ###"
+echo "### Firefox opening in a few seconds ###"
+echo "### Then run file by: sudo dpkg -i [Filename].deb ###"
+sleep 3
+firefox https://update.iserv.eu/debian/pool/main/i/iserv-client/
