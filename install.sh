@@ -21,5 +21,5 @@ curl -L -O https://github.com/m477h145/schul-ubuntu-install-script/raw/master/sm
 echo "### Auto-download broken ###"
 echo "### Firefox opening in a few seconds ###"
 echo "### Then run file by: sudo dpkg -i [Filename].deb ###"
-sleep 3
+sleep 5
 firefox https://update.iserv.eu/debian/pool/main/i/iserv-client/
